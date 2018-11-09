@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  RRC.c
+  RLC.c
+  Relay.c
+  PDCP.c
+  NAS.c
+  MIMO.c
+  Mac_scheduler.c
+  LTE_Phy.c
+c:\users\user\downloads\modeling_obstracles_in_lte_v11.0\64bit\code\lte\lte_phy.c(100): warning C4047: '=': 'pathloss_data' differs in levels of indirection from 'pathloss_data *'
+  LTE_enum.c
+  LTE.c
+  HARQ.c
+  Femtocell.c
+  D2D.c
+  CA.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\LTE\..\Dll\LTE.dll) does not match the Linker's OutputFile property value (C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\Dll\libLTE.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(LTE) does not match the Linker's OutputFile property value (libLTE). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+CA.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  list.lib(List.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+CA.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\LTE.lib and object ..\Dll\LTE.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+list.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'list.lib(List.obj)' or at 'C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\Dll\List.pdb'; linking object as if no debug info
+LTE.lib(LTELib.obj) : warning LNK4099: PDB 'LTELib.pdb' was not found with 'LTE.lib(LTELib.obj)' or at 'C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\Dll\LTELib.pdb'; linking object as if no debug info
+LTE.lib(BER.obj) : warning LNK4099: PDB 'LTELib.pdb' was not found with 'LTE.lib(BER.obj)' or at 'C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\Dll\LTELib.pdb'; linking object as if no debug info
+  LTE.vcxproj -> C:\Users\user\Downloads\MODELING_OBSTRACLES_in_LTE_v11.0\64bit\Code\LTE\..\Dll\LTE.dll
+  LTE.vcxproj -> ..\Dll\LTE.pdb (Full PDB)
